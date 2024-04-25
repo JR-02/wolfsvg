@@ -1,0 +1,25 @@
+---
+import Card from "../../../components/Card.astro";
+import { svgData } from "../../../data/svg-data";
+import Layout from "../../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  return [
+    { params: { category: "software" } },
+    { params: { category: "genshin-impact" } },
+    { params: { category: "spot" } },
+  ];
+}
+const { category } = Astro.params;
+
+const svg = svgData.filter((svg) => svg.pack === category);
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <h3 class="mb-3 font-semibold">Total de SVG: {svg.length}</h3>
+    <div class="grid grid-cols-7 justify-items-center gap-2">
+      {svg.map((item) => <Card {...item} />)}
+    </div>
+  </main>
+</Layout>

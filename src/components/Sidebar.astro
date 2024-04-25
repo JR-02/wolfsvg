@@ -1,0 +1,133 @@
+---
+const menuItemsCategory = [
+  {
+    title: "All",
+    path: "/",
+  },
+  {
+    title: "Ai",
+    path: "/category/ai",
+  },
+  {
+    title: "Browser",
+    path: "/category/browser",
+  },
+  {
+    title: "CMS",
+    path: "/category/cms",
+  },
+  {
+    title: "Community",
+    path: "/category/software",
+  },
+  {
+    title: "Compiler",
+    path: "/category/compiler",
+  },
+  {
+    title: "Crypto",
+    path: "/category/crypto",
+  },
+  {
+    title: "Database",
+    path: "/category/database",
+  },
+  {
+    title: "Design",
+    path: "/category/design",
+  },
+  {
+    title: "Education",
+    path: "/category/education",
+  },
+  {
+    title: "Entertainment",
+    path: "/category/entertainment",
+  },
+  {
+    title: "Fintech",
+    path: "/category/fintech",
+  },
+  {
+    title: "Framework",
+    path: "/category/framework",
+  },
+  {
+    title: "Hosting",
+    path: "/category/hosting",
+  },
+  {
+    title: "Language",
+    path: "/category/language",
+  },
+  {
+    title: "Library",
+    path: "/category/library",
+  },
+  {
+    title: "Marketplace",
+    path: "/category/marketplace",
+  },
+  {
+    title: "Music",
+    path: "/category/music",
+  },
+  {
+    title: "Social",
+    path: "/category/social",
+  },
+  {
+    title: "Software",
+    path: "/category/software",
+  },
+];
+
+const menuItemsPack = [
+  {
+    title: "Genshin Impact",
+    path: "/category/genshin-impact",
+  },
+  {
+    title: "Material Design",
+    path: "/category/material-design",
+  },
+];
+---
+
+<aside
+  class="z-50 w-full overflow-y-auto top-20 overflow-x-hidden md:fixed md:left-0 md:h-full md:w-56 md:pb-10 bg-white"
+>
+  <div class="p-2 overflow-y-scroll h-full md:px-6 md:py-6">
+    <ul
+      class="flex space-x-1 overflow-y-auto md:mb-3 md:flex-col md:space-x-0 md:space-y-1 md:overflow-y-visible px-5 md:px-0 pb-2 pt-3 md:pt-0"
+    >
+      {
+        menuItemsCategory.map((item) => (
+          <li>
+            <a
+              href={item.path}
+              class="flex items-center flex-grow text-base hover:bg-gray-200 px-3 py-1 rounded"
+            >
+              {item.title}
+            </a>
+          </li>
+        ))
+      }
+
+      <hr />
+
+      {
+        menuItemsPack.map((item) => (
+          <li>
+            <a
+              href={item.path}
+              class="flex items-center flex-grow text-base hover:bg-gray-200 px-3 py-1 rounded"
+            >
+              {item.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</aside>
