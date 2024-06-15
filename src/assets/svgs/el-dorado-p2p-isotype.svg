@@ -1,1 +1,17 @@
-<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#FFB300" d="M186.736 25.363h45.896v81.302h-45.896zM108.057 59.458h45.896v89.17h-45.896z"/><path fill-rule="evenodd" clip-rule="evenodd" d="M84.453 156.821 264.104 53.1v99.714L84.453 256.536v-99.715ZM268.038 152.761 449 257.239V157.215L268.038 52.737V152.76Z" fill="#FFB300"/><path fill-rule="evenodd" clip-rule="evenodd" d="M449 176.165h-87.859v136.256L449 363.146V176.165ZM176.245 415.258V212.766l87.859 50.725v101.042l-87.859 50.725Z" fill="#FFB300"/><path d="m172.064 210.592-.078 101.083-87.423-50.474 87.501-50.609Z" fill="#FFB300"/><path fill-rule="evenodd" clip-rule="evenodd" d="m199.179 206.6 63.522-36.674 42.063 24.286-.009.016 39.339 22.713v91.205L278.528 346v-93.588L199.179 206.6Z" fill="#4DD0E1"/><path fill-rule="evenodd" clip-rule="evenodd" d="M178.669 419.983 358.617 316.09l87.219 50.356-179.948 103.893-87.219-50.356Z" fill="#FFB300"/><path fill="#FFB300" d="M302.132 410.891h45.896v74.745h-45.896zM369.009 375.486h45.896v85.236h-45.896z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FFB300;}
+	.st1{fill:#FFB300;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#4DD0E1;}
+</style>
+<polygon class="st0" points="264.1,53.1 264.1,152.8 84.5,256.5 84.5,156.8 108.1,143.2 108.1,59.5 154,59.5 154,116.7 186.7,97.8 
+	186.7,25.4 232.6,25.4 232.6,71.3 "/>
+<polygon class="st0" points="449,157.2 449,363.2 361.1,312.4 361.1,206.5 268,152.8 268,52.7 "/>
+<path class="st0" d="M176.2,212.8v202.5l87.9-50.7v-101L176.2,212.8z"/>
+<path class="st1" d="M172.1,210.6L172,311.7l-87.4-50.5L172.1,210.6L172.1,210.6z"/>
+<path class="st2" d="M199.2,206.6l63.5-36.7l81.4,47v91.2L278.5,346v-93.6L199.2,206.6z"/>
+<polygon class="st0" points="445.8,366.5 414.9,384.3 414.9,460.7 369,460.7 369,410.8 348,422.9 348,485.6 302.1,485.6 
+	302.1,449.4 265.9,470.3 178.7,420 358.6,316.1 "/>
+</svg>
